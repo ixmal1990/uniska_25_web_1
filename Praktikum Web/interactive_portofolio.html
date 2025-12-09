@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Interaktif</title>
+    <style>
+        .highlight {
+            color: red;
+        }
+    </style>
+    <script>
+        function sapa() {
+            alert("Halo, Selamat Datang di Portofolio Saya!");
+        }
+
+        function ubahwarna() {
+            document.getElementById("nama").classList.toggle("highlight");
+        }
+    </script>
+</head>
+<body onload="sapa()">
+    <h1>Portofolio Saya</h1>
+    <p id="nama">Nama: Fatimatuzzahra</p>
+    <button onclick="ubahwarna()">Ubah Warna Nama</button>
+    
+</body>
+</html>
